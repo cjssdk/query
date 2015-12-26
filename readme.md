@@ -6,7 +6,7 @@ Query string parser
 [![Gitter](https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square)](https://gitter.im/DarkPark/cjssdk)
 
 
-`cjs-parse-query` is a module to parse query part of the location URL.
+Module to parse query part of the location URL.
 
 
 ## Installation
