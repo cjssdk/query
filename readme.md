@@ -9,14 +9,14 @@ Query string parser
 Module to parse query part of the location URL.
 
 
-## Installation
+## Installation ##
 
 ```bash
 npm install cjs-parse-query
 ```
 
 
-## Usage
+## Usage ##
 
 Add to the scope:
 
@@ -38,17 +38,17 @@ console.log(parseQuery(document.location.search.substring(1)));
 ```
 
 
-## Debug mode
+## Debug mode ##
 
 > There is a global var `DEBUG` which activates additional consistency checks and protection logic not available in release mode.
 
 
-## Contribution
+## Contribution ##
 
 If you have any problem or suggestion please open an issue [here](https://github.com/cjssdk/parse-query/issues).
 Pull requests are welcomed with respect to the [JavaScript Code Style](https://github.com/DarkPark/jscs).
 
 
-## License
+## License ##
 
 `cjs-parse-query` is released under the [GPL-3.0 License](http://opensource.org/licenses/GPL-3.0).
