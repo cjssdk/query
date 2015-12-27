@@ -15,10 +15,6 @@
     "dependencies": {
         "cjs-parse-query": "1.*.*"
     },
-    "devDependencies": {
-        "mocha": "2.*.*",
-        "should": "8.*.*"
-    },
     "keywords": [
         "commonjs",
         "sdk",
