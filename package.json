@@ -12,9 +12,6 @@
         "test": "node ./tests/main.js",
         "jsdoc": "jsdoc --destination doc *.js readme.md"
     },
-    "dependencies": {
-        "cjs-parse-query": "1.*.*"
-    },
     "keywords": [
         "commonjs",
         "sdk",
