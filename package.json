@@ -1,12 +1,12 @@
 {
-    "name": "cjs-parse-query",
+    "name": "cjs-query",
     "version": "1.3.0",
     "description": "Parse the given location search string into object.",
     "author": {
         "name": "Stanislav Kalashnik",
         "email": "darkpark.main@gmail.com"
     },
-    "repository": "cjssdk/parse-query",
+    "repository": "cjssdk/query",
     "scripts": {
         "lint": "eslint ./*.js",
         "test": "node ./tests/main.js",
@@ -20,8 +20,9 @@
         "sdk",
         "cjssdk",
         "framework",
+        "query",
         "parse",
-        "query"
+        "stringify"
     ],
     "license": "GPL-3.0"
 }

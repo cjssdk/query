@@ -5,29 +5,37 @@
 
 'use strict';
 
+module.exports = {
+    /**
+     * Parse the given location search string into object.
+     *
+     * @param {string} query string to parse
+     *
+     * @return {Object.<string, string>} result data
+     */
+    parse: function ( query ) {
+        var data = {};
 
-/**
- * Parse the given location search string into object.
- *
- * @param {string} query string to parse
- *
- * @return {Object.<string, string>} result data
- *
- * @example
- * console.log(parseQuery(document.location.search.substring(1)));
- * console.log(parseQuery('param=value&another_param=another_value'));
- */
-module.exports = function ( query ) {
-    var data = {};
+        // parse and fill the data
+        query.split('&').forEach(function ( part ) {
+            part = part.split('=');
+            // valid number on params
+            if ( part.length === 2 ) {
+                data[part[0]] = decodeURIComponent(part[1]);
+            }
+        });
 
-    // parse and fill the data
-    query.split('&').forEach(function ( part ) {
-        part = part.split('=');
-        // valid number on params
-        if ( part.length === 2 ) {
-            data[part[0]] = decodeURIComponent(part[1]);
-        }
-    });
+        return data;
+    },
 
-    return data;
+
+    stringify: function ( params ) {
+        var data = [];
+
+        Object.keys(params).forEach(function ( name ) {
+            data.push(name + '=' + encodeURIComponent(params[name]));
+        });
+
+        return data.join('&');
+    }
 };

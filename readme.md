@@ -1,8 +1,8 @@
-Query string parser
-===================
+Query string handler
+====================
 
-[![NPM version](https://img.shields.io/npm/v/cjs-parse-query.svg?style=flat-square)](https://www.npmjs.com/package/cjs-parse-query)
-[![Dependencies Status](https://img.shields.io/david/cjssdk/parse-query.svg?style=flat-square)](https://david-dm.org/cjssdk/parse-query)
+[![NPM version](https://img.shields.io/npm/v/cjs-query.svg?style=flat-square)](https://www.npmjs.com/package/cjs-query)
+[![Dependencies Status](https://img.shields.io/david/cjssdk/query.svg?style=flat-square)](https://david-dm.org/cjssdk/query)
 [![Gitter](https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square)](https://gitter.im/DarkPark/cjssdk)
 
 
@@ -12,7 +12,7 @@ Module to parse query part of the location URL.
 ## Installation ##
 
 ```bash
-npm install cjs-parse-query
+npm install cjs-query
 ```
 
 
@@ -21,20 +21,21 @@ npm install cjs-parse-query
 Add to the scope:
 
 ```js
-var parseQuery = require('cjs-parse-query');
+var query = require('cjs-query');
 ```
 
 Parse some parameters:
 
 ```js
-// gives {param: 'value', another_param: 'another_value'}
-console.log(parseQuery('param=value&another_param=another_value'));
+// gives {param: '5000', another_param: 'another_value'}
+// note that the type of param value is string
+console.log(query.parse('param=5000&another_param=another_value'));
 ```
 
 Parse current document query string:
 
 ```js
-console.log(parseQuery(document.location.search.substring(1)));
+console.log(query.parse(document.location.search.substring(1)));
 ```
 
 
@@ -45,10 +46,10 @@ console.log(parseQuery(document.location.search.substring(1)));
 
 ## Contribution ##
 
-If you have any problem or suggestion please open an issue [here](https://github.com/cjssdk/parse-query/issues).
+If you have any problem or suggestion please open an issue [here](https://github.com/cjssdk/query/issues).
 Pull requests are welcomed with respect to the [JavaScript Code Style](https://github.com/DarkPark/jscs).
 
 
 ## License ##
 
-`cjs-parse-query` is released under the [GPL-3.0 License](http://opensource.org/licenses/GPL-3.0).
+`cjs-query` is released under the [GPL-3.0 License](http://opensource.org/licenses/GPL-3.0).
