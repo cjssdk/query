@@ -38,6 +38,13 @@ Parse current document query string:
 console.log(query.parse(document.location.search.substring(1)));
 ```
 
+Stringify query params:
+
+```js
+// gives 'param=128'
+console.log(query.stringify({param: 128}));
+```
+
 
 ## Debug mode ##
 

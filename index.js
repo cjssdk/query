@@ -29,6 +29,13 @@ module.exports = {
     },
 
 
+	/**
+     * Make uri query part in a string form.
+     *
+     * @param {Object} params data to stringify
+     *
+     * @return {string} query string
+     */
     stringify: function ( params ) {
         var data = [];
 
