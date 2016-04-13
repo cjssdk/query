@@ -46,9 +46,9 @@ console.log(query.stringify({param: 128}));
 ```
 
 
-## Debug mode ##
+## Development mode ##
 
-> There is a global var `DEBUG` which activates additional consistency checks and protection logic not available in release mode.
+> There is a global var `DEVELOP` which activates additional consistency checks and protection logic not available in release mode.
 
 
 ## Contribution ##
