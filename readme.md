@@ -59,4 +59,4 @@ Pull requests are welcomed with respect to the [JavaScript Code Style](https://g
 
 ## License ##
 
-`cjs-query` is released under the [GPL-3.0 License](http://opensource.org/licenses/GPL-3.0).
+`cjs-query` is released under the [MIT License](license.md).
