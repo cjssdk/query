@@ -17,7 +17,7 @@
     },
     "devDependencies": {
         "cjs-eslint-config": "cjssdk/eslint-config",
-        "eslint": "2.*.*"
+        "eslint": "3.*.*"
     },
     "keywords": [
         "commonjs",
