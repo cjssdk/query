@@ -5,6 +5,7 @@ Query string handler
 [![NPM version](https://img.shields.io/npm/v/cjs-query.svg?style=flat-square)](https://www.npmjs.com/package/cjs-query)
 [![Dependencies Status](https://img.shields.io/david/cjssdk/query.svg?style=flat-square)](https://david-dm.org/cjssdk/query)
 [![Gitter](https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square)](https://gitter.im/DarkPark/cjssdk)
+[![RunKit](https://img.shields.io/badge/RunKit-try-yellow.svg?style=flat-square)](https://runkit.com/npm/cjs-query)
 
 
 Module to parse query part of the location URL.
