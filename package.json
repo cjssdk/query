@@ -1,6 +1,6 @@
 {
     "name": "cjs-query",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "description": "Parse the given location search string into object.",
     "author": {
         "name": "Stanislav Kalashnik",
