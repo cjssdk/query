@@ -29,7 +29,7 @@ module.exports = {
     },
 
 
-	/**
+    /**
      * Make uri query part in a string form.
      *
      * @param {Object} params data to stringify
