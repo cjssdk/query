@@ -13,7 +13,7 @@
     "scripts": {
         "lint": "eslint .",
         "test": "npm run lint",
-        "jsdoc": "jsdoc --destination doc *.js readme.md"
+        "jsdoc": "jsdoc --destination docs *.js readme.md"
     },
     "devDependencies": {
         "cjs-eslint-config": "1.*.*",
