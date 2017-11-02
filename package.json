@@ -17,7 +17,8 @@
     },
     "devDependencies": {
         "cjs-eslint-config": "1.*.*",
-        "eslint": "4.*.*"
+        "eslint": "4.*.*",
+        "jsdoc": "3.*.*"
     },
     "keywords": [
         "commonjs",
