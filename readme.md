@@ -2,11 +2,11 @@ Query string handler
 ====================
 
 [![build status](https://img.shields.io/travis/cjssdk/query.svg?style=flat-square)](https://travis-ci.org/cjssdk/query)
-[![npm version](https://img.shields.io/npm/v/cjs-query.svg?style=flat-square)](https://www.npmjs.com/package/cjs-query)
+[![npm version](https://img.shields.io/npm/v/@cjssdk/query.svg?style=flat-square)](https://www.npmjs.com/package/@cjssdk/query)
 [![dependencies status](https://img.shields.io/david/cjssdk/query.svg?style=flat-square)](https://david-dm.org/cjssdk/query)
 [![devDependencies status](https://img.shields.io/david/dev/cjssdk/query.svg?style=flat-square)](https://david-dm.org/cjssdk/query?type=dev)
 [![Gitter](https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square)](https://gitter.im/DarkPark/cjssdk)
-[![RunKit](https://img.shields.io/badge/RunKit-try-yellow.svg?style=flat-square)](https://npm.runkit.com/cjs-query)
+[![RunKit](https://img.shields.io/badge/RunKit-try-yellow.svg?style=flat-square)](https://npm.runkit.com/@cjssdk/query)
 
 
 Module to parse query part of the location URL.
@@ -15,7 +15,7 @@ Module to parse query part of the location URL.
 ## Installation ##
 
 ```bash
-npm install cjs-query
+npm install @cjssdk/query
 ```
 
 
@@ -24,7 +24,7 @@ npm install cjs-query
 Add to the scope:
 
 ```js
-var query = require('cjs-query');
+var query = require('@cjssdk/query');
 ```
 
 Parse some parameters:
@@ -57,4 +57,4 @@ according to the contribution [rules](.github/contributing.md).
 
 ## License ##
 
-`cjs-query` is released under the [MIT License](license.md).
+`@cjssdk/query` is released under the [MIT License](license.md).

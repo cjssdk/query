@@ -1,5 +1,5 @@
 {
-    "name": "cjs-query",
+    "name": "@cjssdk/query",
     "version": "1.4.0",
     "description": "Parse the given location search string into object.",
     "author": {
@@ -10,13 +10,16 @@
         "type": "git",
         "url": "https://github.com/cjssdk/query.git"
     },
+    "publishConfig": {
+        "access": "public"
+    },
     "scripts": {
         "lint": "eslint --ignore-pattern '/docs/' .",
         "test": "npm run lint",
         "jsdoc": "jsdoc --destination docs *.js readme.md"
     },
     "devDependencies": {
-        "cjs-eslint-config": "1.*.*",
+        "@cjssdk/eslint-config": "1.*.*",
         "eslint": "4.*.*",
         "jsdoc": "3.*.*"
     },
