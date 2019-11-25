@@ -9,7 +9,7 @@ module.exports = {
     /**
      * Parse the given location search string into object.
      *
-     * @param {string} query string to parse
+     * @param {string} query - string to parse
      *
      * @return {Object.<string, string>} result data
      */
@@ -32,7 +32,7 @@ module.exports = {
     /**
      * Make uri query part in a string form.
      *
-     * @param {Object} params data to stringify
+     * @param {Object} params - data to stringify
      *
      * @return {string} query string
      */
